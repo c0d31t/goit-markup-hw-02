@@ -1,0 +1,289 @@
+/*osnva color:212121 # 
+vtorichnii color: #757575
+shapka color: #FFFFFF;
+background: #2F303A;
+*/
+
+
+
+:root  {
+ --primery-text-color:#212121;
+ --title-text-color: #212121;
+ --text-color:#757575;
+ --accent-color:#2196F3;
+ --primary-background-color:#FFFFFF;
+ --hero-background: #2F303A;
+ --rgba-footer:rgba(255, 255, 255, 0.6);
+ --portfolio-color-button: #F5F4FA;
+}
+body {
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    color: #212121;;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/*======================LOGO=====================*/
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+
+    color: #2196F3;
+}
+
+.logo-dark {
+    color: #212121;
+}
+
+.logo-light {
+    color: #FFFFFF;
+
+    /*======================HEADER=====================*/
+
+}
+.header {
+    background: #FFFFFF
+}
+
+/*MENU*/
+
+.menu-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #2196F3
+}
+
+.menu-link {
+    color: #212121
+}
+
+.mail-header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #757575
+
+}
+.mail-header:hover,
+.mail-header:focus {
+    color: #2196F3
+}
+
+.phone-number-header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #757575
+}
+.phone-number-header:hover,
+.phone-number-header:focus {
+    color: #2196F3
+
+}
+
+/*======================HERO=====================*/
+
+.hero {
+    background: #2F303A;
+}
+
+/*TITLE*/
+
+.hero-tite {
+    font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    
+        color: #FFFFFF;
+}
+
+/*BUTTON*/
+
+.hero-button {
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.9;
+        letter-spacing: 0.06em;
+    
+        color: #FFFFFF;
+
+    width: 200px;
+        height: 50px;
+        left: 700px;
+        top: 430px;
+    
+        background: #2196F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+
+            cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.9;
+        letter-spacing: 0.06em;
+    
+        color: #FFFFFF;
+
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+   
+}
+
+/*======================SPECIALIZATION=====================*/
+
+.specialization-title {
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+    
+}
+
+.specialization-text {
+        font-size: 14px;
+        line-height: 1.7;
+        
+         color: #757575;
+}
+
+/*======================OUR WORK=====================*/
+
+
+
+/*======================OUR TEAM=====================*/
+
+.our-team-name {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+}
+
+.our-team-text {
+        font-size: 16px;
+        line-height: 1.2;
+    
+        color: #757575
+}
+
+/*======================FOOTER=====================*/
+
+.footer {
+    background: #2F303A;
+}
+
+.contact-link {
+    font-style: normal;
+     font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+    
+        color: #FFFFFF;
+}
+.contact-link:hover,
+.contact-link:focus {
+    color: #2196F3
+}
+
+/*MAIL*/
+
+.mail-footer {
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+    
+        color: rgba(255, 255, 255, 0.6);
+}
+.mail-footer:hover,
+.mail-footer:focus {
+    color: #2196F3
+}
+
+/*PHONE*/
+
+.phone-number-footer {
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        color: rgba(255, 255, 255, 0.6);
+}
+.phone-number-footer:hover,
+.phone-number-footer:focus {
+    color: #2196F3
+}
+
+/*======================PORTFOLIO PAGE=====================*/
+
+.filter-button {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: center;
+    
+        background: #F5F4FA;
+        border-radius: 4px;
+        cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+    background: #2196F3;
+    color: #FFFFFF;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+}
+
+.potfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+
+.potfolio-text {
+    font-size: 16px;
+    line-height: 1.9;
+
+    color: #757575;
+}
