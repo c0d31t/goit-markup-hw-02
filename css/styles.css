@@ -58,9 +58,6 @@ body {
     /*======================HEADER=====================*/
 
 }
-.header {
-    background: #FFFFFF
-}
 
 /*MENU*/
 
@@ -207,10 +204,6 @@ body {
 
 /*======================FOOTER=====================*/
 
-.footer {
-    background: #2F303A;
-}
-
 .contact-link {
     font-style: normal;
      font-weight: 400;
@@ -253,6 +246,25 @@ body {
     color: #2196F3
 }
 
+/*======================BACKGROUND=====================*/
+.footer {
+    background: #2F303A;
+}
+.header {
+    background: #FFFFFF
+}
+.studio-main {
+    background: #E5E5E5;
+}
+.our-team-item {
+    background: #FFFFFF;
+}
+.portfolio-main {
+    background: #E5E5E5; 
+}
+.portfolio-item {
+background: #FFFFFF;
+}
 /*======================PORTFOLIO PAGE=====================*/
 
 .filter-button {
@@ -287,3 +299,4 @@ body {
 
     color: #757575;
 }
+
