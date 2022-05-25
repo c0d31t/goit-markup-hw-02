@@ -1,25 +1,18 @@
-/*osnva color:212121 # 
-vtorichnii color: #757575
-shapka color: #FFFFFF;
-background: #2F303A;
-*/
-
-
-
 :root  {
  --primery-text-color:#212121;
  --title-text-color: #212121;
- --text-color:#757575;
+ --text-color:#757575 ;
  --accent-color:#2196F3;
  --primary-background-color:#FFFFFF;
  --hero-background: #2F303A;
  --rgba-footer:rgba(255, 255, 255, 0.6);
  --portfolio-color-button: #F5F4FA;
 }
+
 body {
     font-family: Roboto, sans-serif;
-    letter-spacing: 0.03em;
-    color: #212121;;
+    color: var(--primery-text-color);
+    background-color: var(--primary-background-color);
 }
 
 .list {
@@ -35,6 +28,7 @@ body {
     font-size: 36px;
     line-height: 1.6;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /*======================LOGO=====================*/
@@ -44,16 +38,17 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    letter-spacing: 0.03em;
 
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .logo-dark {
-    color: #212121;
+    color: var(--primery-text-color);
 }
 
 .logo-light {
-    color: #FFFFFF;
+    color: var(--primary-background-color);
 
     /*======================HEADER=====================*/
 
@@ -71,11 +66,11 @@ body {
 
 .menu-link:hover,
 .menu-link:focus {
-    color: #2196F3
+    color: var(--accent-color)
 }
 
 .menu-link {
-    color: #212121
+    color: var(--primery-text-color)
 }
 
 .mail-header {
@@ -84,12 +79,12 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
 
-    color: #757575
+    color: var(--text-color);
 
 }
 .mail-header:hover,
 .mail-header:focus {
-    color: #2196F3
+    color: var(--accent-color)
 }
 
 .phone-number-header {
@@ -98,18 +93,18 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
 
-    color: #757575
+    color: var(--text-color);
 }
 .phone-number-header:hover,
 .phone-number-header:focus {
-    color: #2196F3
+    color: var(--accent-color);
 
 }
 
 /*======================HERO=====================*/
 
 .hero {
-    background: #2F303A;
+    background: var(--hero-background);
 }
 
 /*TITLE*/
@@ -122,7 +117,7 @@ body {
         letter-spacing: 0.06em;
         text-transform: uppercase;
     
-        color: #FFFFFF;
+        color: var(--primary-background-color);
 }
 
 /*BUTTON*/
@@ -133,14 +128,8 @@ body {
         line-height: 1.9;
         letter-spacing: 0.06em;
     
-        color: #FFFFFF;
-
-    width: 200px;
-        height: 50px;
-        left: 700px;
-        top: 430px;
-    
-        background: #2196F3;
+        color: var(--primary-background-color);
+        background: var(--accent-color);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
 
@@ -152,17 +141,11 @@ body {
         font-size: 16px;
         line-height: 1.9;
         letter-spacing: 0.06em;
-    
-        color: #FFFFFF;
-
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
-
-    background: #188CE8;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+        
+        color: var(--primary-background-color);
+        background: #188CE8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
    
 }
 
@@ -172,6 +155,7 @@ body {
     font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
     
 }
@@ -179,8 +163,9 @@ body {
 .specialization-text {
         font-size: 14px;
         line-height: 1.7;
+        letter-spacing: 0.03em;
         
-         color: #757575;
+         color: var(--text-color);;
 }
 
 /*======================OUR WORK=====================*/
@@ -188,82 +173,71 @@ body {
 
 
 /*======================OUR TEAM=====================*/
+.our-team {
+    background-color: var(--portfolio-color-button);
+}
 
+.our-team-item {
+    background: var(--primary-background-color)
+}
 .our-team-name {
     font-weight: 500;
         font-size: 16px;
         line-height: 1.2;
+        letter-spacing: 0.03em;
 }
 
 .our-team-text {
         font-size: 16px;
         line-height: 1.2;
+        letter-spacing: 0.03em;
     
-        color: #757575
+        color: var(--text-color);
 }
 
 /*======================FOOTER=====================*/
-
-.contact-link {
+.address{
     font-style: normal;
-     font-weight: 400;
+        font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
-    
-        color: #FFFFFF;
+        letter-spacing: 0.03em;
+
+}
+.contact-link {
+        color: var(--primary-background-color);
 }
 .contact-link:hover,
 .contact-link:focus {
-    color: #2196F3
+    color: var(--accent-color)
 }
 
 /*MAIL*/
 
-.mail-footer {
-    font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.7;
-    
-        color: rgba(255, 255, 255, 0.6);
+.mail-footer,
+.phone-number-footer {
+        color: var(--rgba-footer);
 }
+
+.phone-number-footer:hover,
+.phone-number-footer:focus,
 .mail-footer:hover,
 .mail-footer:focus {
-    color: #2196F3
-}
-
-/*PHONE*/
-
-.phone-number-footer {
-    font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.7;
-        color: rgba(255, 255, 255, 0.6);
-}
-.phone-number-footer:hover,
-.phone-number-footer:focus {
-    color: #2196F3
+    color: var(--accent-color)
 }
 
 /*======================BACKGROUND=====================*/
 .footer {
-    background: #2F303A;
+    background: var(--hero-background);
 }
 .header {
-    background: #FFFFFF
-}
-.studio-main {
-    background: #E5E5E5;
+    background: var(--primary-background-color);
 }
 .our-team-item {
-    background: #FFFFFF;
-}
-.portfolio-main {
-    background: #E5E5E5; 
+    background: var(--primary-background-color);
 }
 .portfolio-item {
-background: #FFFFFF;
+background: var(--primary-background-color);
 }
 /*======================PORTFOLIO PAGE=====================*/
 
@@ -272,19 +246,22 @@ background: #FFFFFF;
         font-size: 16px;
         line-height: 1.6;
         text-align: center;
+        letter-spacing: 0.03em;
     
-        background: #F5F4FA;
+        background: var(--portfolio-color-button);
         border-radius: 4px;
         cursor: pointer;
 }
 .filter-button:hover,
 .filter-button:focus {
-    background: #2196F3;
-    color: #FFFFFF;
+    background: var(--accent-color);
+    color: var(--primary-background-color);
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
         border-radius: 4px;
 }
-
+.portfolio-item {
+    background: var(--primary-background-color);
+}
 .potfolio-title {
     font-weight: 700;
     font-size: 18px;
@@ -296,7 +273,8 @@ background: #FFFFFF;
 .potfolio-text {
     font-size: 16px;
     line-height: 1.9;
+    letter-spacing: 0.03em;
 
-    color: #757575;
+    color: var(--text-color);
 }
 
