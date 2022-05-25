@@ -1,12 +1,12 @@
-:root  {
- --primery-text-color:#212121;
- --title-text-color: #212121;
- --text-color:#757575 ;
- --accent-color:#2196F3;
- --primary-background-color:#FFFFFF;
- --hero-background: #2F303A;
- --rgba-footer:rgba(255, 255, 255, 0.6);
- --portfolio-color-button: #F5F4FA;
+:root {
+    --primery-text-color: #212121;
+    --title-text-color: #212121;
+    --text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-background-color: #FFFFFF;
+    --hero-background: #2F303A;
+    --rgba-footer: rgba(255, 255, 255, 0.6);
+    --portfolio-color-button: #F5F4FA;
 }
 
 body {
@@ -82,6 +82,7 @@ body {
     color: var(--text-color);
 
 }
+
 .mail-header:hover,
 .mail-header:focus {
     color: var(--accent-color)
@@ -95,6 +96,7 @@ body {
 
     color: var(--text-color);
 }
+
 .phone-number-header:hover,
 .phone-number-header:focus {
     color: var(--accent-color);
@@ -111,61 +113,63 @@ body {
 
 .hero-tite {
     font-weight: 900;
-        font-size: 44px;
-        line-height: 1.36;
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-    
-        color: var(--primary-background-color);
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: var(--primary-background-color);
 }
 
 /*BUTTON*/
 
 .hero-button {
     font-weight: 700;
-        font-size: 16px;
-        line-height: 1.9;
-        letter-spacing: 0.06em;
-    
-        color: var(--primary-background-color);
-        background: var(--accent-color);
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
 
-            cursor: pointer;
+    color: var(--primary-background-color);
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    cursor: pointer;
 }
+
 .hero-button:hover,
 .hero-button:focus {
     font-weight: 700;
-        font-size: 16px;
-        line-height: 1.9;
-        letter-spacing: 0.06em;
-        
-        color: var(--primary-background-color);
-        background: #188CE8;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
-   
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+
+    color: var(--primary-background-color);
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
 }
 
 /*======================SPECIALIZATION=====================*/
 
 .specialization-title {
     font-weight: 700;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-    
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
 }
 
 .specialization-text {
-        font-size: 14px;
-        line-height: 1.7;
-        letter-spacing: 0.03em;
-        
-         color: var(--text-color);;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+
+    color: var(--text-color);
+    ;
 }
 
 /*======================OUR WORK=====================*/
@@ -180,33 +184,36 @@ body {
 .our-team-item {
     background: var(--primary-background-color)
 }
+
 .our-team-name {
     font-weight: 500;
-        font-size: 16px;
-        line-height: 1.2;
-        letter-spacing: 0.03em;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
 }
 
 .our-team-text {
-        font-size: 16px;
-        line-height: 1.2;
-        letter-spacing: 0.03em;
-    
-        color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+
+    color: var(--text-color);
 }
 
 /*======================FOOTER=====================*/
-.address{
+.address {
     font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.7;
-        letter-spacing: 0.03em;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 
 }
+
 .contact-link {
-        color: var(--primary-background-color);
+    color: var(--primary-background-color);
 }
+
 .contact-link:hover,
 .contact-link:focus {
     color: var(--accent-color)
@@ -216,7 +223,7 @@ body {
 
 .mail-footer,
 .phone-number-footer {
-        color: var(--rgba-footer);
+    color: var(--rgba-footer);
 }
 
 .phone-number-footer:hover,
@@ -230,38 +237,45 @@ body {
 .footer {
     background: var(--hero-background);
 }
+
 .header {
     background: var(--primary-background-color);
 }
+
 .our-team-item {
     background: var(--primary-background-color);
 }
+
 .portfolio-item {
-background: var(--primary-background-color);
+    background: var(--primary-background-color);
 }
+
 /*======================PORTFOLIO PAGE=====================*/
 
 .filter-button {
     font-weight: 500;
-        font-size: 16px;
-        line-height: 1.6;
-        text-align: center;
-        letter-spacing: 0.03em;
-    
-        background: var(--portfolio-color-button);
-        border-radius: 4px;
-        cursor: pointer;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    background: var(--portfolio-color-button);
+    border-radius: 4px;
+    cursor: pointer;
 }
+
 .filter-button:hover,
 .filter-button:focus {
     background: var(--accent-color);
     color: var(--primary-background-color);
-        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-        border-radius: 4px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
+
 .portfolio-item {
     background: var(--primary-background-color);
 }
+
 .potfolio-title {
     font-weight: 700;
     font-size: 18px;
@@ -277,4 +291,3 @@ background: var(--primary-background-color);
 
     color: var(--text-color);
 }
-
